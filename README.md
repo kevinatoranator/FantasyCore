@@ -11,12 +11,11 @@
   
   new clothing
   
-  limit to medieval age
-  
-  
   
   ## Level 2 ##
   new traits
+  
+  limit to medieval age
   
   
   ## Level 3 ##
