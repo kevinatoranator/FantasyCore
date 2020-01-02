@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="etf-8" ?>
+<Defs>
+	<FactionDef ParentName="PlayerFactionBase" Name="AdventurerFactionBase">
+	<defName>PlayerAdventurer</defName>
+	<label>Lost Adventurers</label>
+	<description>A band of lost adventurers wandering through the lands.</description>
+	<isPlayer>true</isPlayer>
+	<pawnSingular>adventurer</pawnSingular>
+    <pawnsPlural>adventurers</pawnsPlural>
+	<basicMemberKind>Adventurer</basicMemberKind>
+	<techLevel>Neolithic</techLevel>
+	<backstoryCategories>
+		<li>Tribal</li>
+	</backstoryCategories>
+	<geneticVariance>1</geneticVariance>
+    <forageabilityFactor>1.7</forageabilityFactor>
+	<startingResearchTags>
+		<li>TribalStart</li>
+	</startingResearchTags>
+	<hairTags>
+		<li>Rural</li>
+		<li>Tribal</li>
+		<li>Punk</li>
+		<li>Urban</li>
+	</hairTags>
+	<apparelStuffFilter>
+		<thingDefs>
+			<li>Cloth</li>
+		</thingDefs>
+	</apparelStuffFilter>
+	<settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
+	<factionNameMaker>NamerFactionTribal</factionNameMaker>
+	<pawnNameMaker>NamerPersonTribal</pawnNameMaker>
+	<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+	</FactionDef>
+</Defs>

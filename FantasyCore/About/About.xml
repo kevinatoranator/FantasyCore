@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Fantasy Core</name>
+	<author>Kevin Rinald, kevinatoranator</author>
+	<supportedVersions><li>1.0</li></supportedVersions>
+	<description>
+		Core of the High Fantasy pack, currently limits all tech and contains all base additions.
+	</description>
+</ModMetaData>
