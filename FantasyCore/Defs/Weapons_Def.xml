@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="etf-8" ?>
+<Defs>
+	<!--Weapons -->
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp">
+		<defName>BigSwordTest</defName>
+		<label>big test sword</label>
+		<description>a sword of 128 pixels</description>
+		<graphicData>
+			<texPath>TestSword128</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<costStuffCount>50</costStuffCount>
+		<statBases>
+			<WorkToMake>6000</WorkToMake>
+			<Mass>2</Mass>
+		</statBases>
+		<equippedAngleOffset>0</equippedAngleOffset>
+		
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>3</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+			<stuffCategories>
+				<li>Metallic</li>
+				<li>Woody</li>
+			</stuffCategories>
+		<tools>
+			<li>
+			<label>handle</label>
+			<capacities>
+			<li>Blunt</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>2</cooldownTime>
+		</li>
+		<li>
+			<label>point</label>
+			<capacities>
+			<li>Stab</li>
+			</capacities>
+			<power>15</power>
+			<cooldownTime>2</cooldownTime>
+		</li>
+		<li>
+			<label>edge</label>
+			<capacities>
+			<li>Cut</li>
+			</capacities>
+			<power>15</power>
+			<cooldownTime>2</cooldownTime>
+		</li>
+		</tools>
+	</ThingDef>
+	
+	<!-- Small sword -->
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp">
+		<defName>SmallSwordTest</defName>
+		<label>small test sword</label>
+		<description>a sword of 64 pixels</description>
+		<graphicData>
+			<texPath>TestSword64</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<costStuffCount>50</costStuffCount>
+		<statBases>
+			<WorkToMake>6000</WorkToMake>
+			<Mass>2</Mass>
+		</statBases>
+		<equippedAngleOffset>0</equippedAngleOffset>
+		
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>3</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+			<stuffCategories>
+				<li>Metallic</li>
+				<li>Woody</li>
+			</stuffCategories>
+		<tools>
+			<li>
+			<label>handle</label>
+			<capacities>
+			<li>Blunt</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>2</cooldownTime>
+		</li>
+		<li>
+			<label>point</label>
+			<capacities>
+			<li>Stab</li>
+			</capacities>
+			<power>15</power>
+			<cooldownTime>2</cooldownTime>
+		</li>
+		<li>
+			<label>edge</label>
+			<capacities>
+			<li>Cut</li>
+			</capacities>
+			<power>15</power>
+			<cooldownTime>2</cooldownTime>
+		</li>
+		</tools>
+	</ThingDef>
+</Defs>
