@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="etf-8" ?>
 <Defs>
-	<!--Weapons -->
+	<!--BattleAxe -->
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp">
-		<defName>BigSwordTest</defName>
-		<label>big test sword</label>
-		<description>a sword of 128 pixels</description>
+		<defName>BattleAxe</defName>
+		<label>battle axe</label>
+		<description>An axe crafted for war</description>
 		<graphicData>
-			<texPath>TestSword128</texPath>
+			<texPath>BattleAxe</texPath>
+			<color>(192, 193, 189)</color>
+			<shaderType>CutoutComplex</shaderType>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<techLevel>Medieval</techLevel>
 		<costStuffCount>50</costStuffCount>
 		<statBases>
-			<WorkToMake>6000</WorkToMake>
-			<Mass>2</Mass>
+			<WorkToMake>100</WorkToMake><!-- edit higher -->
+			<Mass>2.5</Mass>
 		</statBases>
 		<equippedAngleOffset>0</equippedAngleOffset>
 		
@@ -28,46 +30,38 @@
 			</stuffCategories>
 		<tools>
 			<li>
-			<label>handle</label>
-			<capacities>
-			<li>Blunt</li>
-			</capacities>
-			<power>9</power>
-			<cooldownTime>2</cooldownTime>
-		</li>
-		<li>
-			<label>point</label>
-			<capacities>
-			<li>Stab</li>
-			</capacities>
-			<power>15</power>
-			<cooldownTime>2</cooldownTime>
-		</li>
-		<li>
-			<label>edge</label>
-			<capacities>
-			<li>Cut</li>
-			</capacities>
-			<power>15</power>
-			<cooldownTime>2</cooldownTime>
-		</li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>20</power>
+				<cooldownTime>2.5</cooldownTime>
+			</li>
 		</tools>
 	</ThingDef>
 	
-	<!-- Small sword -->
+	<!--Halberd -->
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp">
-		<defName>SmallSwordTest</defName>
-		<label>small test sword</label>
-		<description>a sword of 64 pixels</description>
+		<defName>Halberd</defName>
+		<label>halberd</label>
+		<description>For slicing and stabbing</description>
 		<graphicData>
-			<texPath>TestSword64</texPath>
+			<texPath>IronHalberd</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<techLevel>Medieval</techLevel>
 		<costStuffCount>50</costStuffCount>
 		<statBases>
-			<WorkToMake>6000</WorkToMake>
-			<Mass>2</Mass>
+			<WorkToMake>100</WorkToMake><!-- edit higher -->
+			<Mass>2.5</Mass>
 		</statBases>
 		<equippedAngleOffset>0</equippedAngleOffset>
 		
@@ -82,29 +76,188 @@
 			</stuffCategories>
 		<tools>
 			<li>
-			<label>handle</label>
-			<capacities>
-			<li>Blunt</li>
-			</capacities>
-			<power>9</power>
-			<cooldownTime>2</cooldownTime>
-		</li>
-		<li>
-			<label>point</label>
-			<capacities>
-			<li>Stab</li>
-			</capacities>
-			<power>15</power>
-			<cooldownTime>2</cooldownTime>
-		</li>
-		<li>
-			<label>edge</label>
-			<capacities>
-			<li>Cut</li>
-			</capacities>
-			<power>15</power>
-			<cooldownTime>2</cooldownTime>
-		</li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>15</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>20</power>
+				<cooldownTime>2.5</cooldownTime>
+			</li>
 		</tools>
 	</ThingDef>
+	
+	<!--Scimitar -->
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp">
+		<defName>Scimitar</defName>
+		<label>scimitar</label>
+		<description>For slicing and dicing</description>
+		<graphicData>
+			<texPath>IronScimitar</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<costStuffCount>50</costStuffCount>
+		<statBases>
+			<WorkToMake>100</WorkToMake><!-- edit higher -->
+			<Mass>2.5</Mass>
+		</statBases>
+		<equippedAngleOffset>180</equippedAngleOffset>
+		
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>3</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+			<stuffCategories>
+				<li>Metallic</li>
+				<li>Woody</li>
+			</stuffCategories>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>20</power>
+				<cooldownTime>2.5</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+	
+	<!-- RANGED -->
+	
+	<!-- Elven Bow -->
+	<ThingDef ParentName="BaseWeaponNeolithic">
+    <defName>ElvenBow</defName>
+    <label>elven bow</label>
+    <description>An elegant bow made by the finest craftsmen.</description>
+    <graphicData>
+      <texPath>ElvenBow</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Bow_Large</soundInteract>
+    <costList>
+      <WoodLog>80</WoodLog>
+    </costList>
+    <statBases>
+      <WorkToMake>100</WorkToMake><!-- edit higher -->
+      <Mass>1.5</Mass>
+      <AccuracyTouch>0.75</AccuracyTouch>
+      <AccuracyShort>0.90</AccuracyShort>
+      <AccuracyMedium>0.80</AccuracyMedium>
+      <AccuracyLong>0.70</AccuracyLong>
+      <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+    </statBases>
+	<equippedAngleOffset>210</equippedAngleOffset>
+    <weaponTags>
+      <li>NeolithicRangedBasic</li>
+    </weaponTags>
+    <recipeMaker>
+      <researchPrerequisite>Greatbow</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>9</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Arrow_Great</defaultProjectile>
+        <warmupTime>1.35</warmupTime>
+        <range>33</range>
+        <soundCast>Bow_Large</soundCast>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>limb</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+  <!-- Elven Bow -->
+	<ThingDef ParentName="BaseWeaponNeolithic">
+    <defName>Crossbow</defName>
+    <label>crossbow</label>
+    <description>Bolt action archery.</description>
+    <graphicData>
+      <texPath>WoodenCrossbow</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Bow_Recurve</soundInteract>
+    <costList>
+      <WoodLog>80</WoodLog>
+    </costList>
+    <statBases>
+      <WorkToMake>100</WorkToMake><!-- edit higher -->
+      <Mass>1.5</Mass>
+      <AccuracyTouch>0.75</AccuracyTouch>
+      <AccuracyShort>0.90</AccuracyShort>
+      <AccuracyMedium>0.80</AccuracyMedium>
+      <AccuracyLong>0.70</AccuracyLong>
+      <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+    </statBases>
+	<equippedAngleOffset>210</equippedAngleOffset>
+    <weaponTags>
+      <li>NeolithicRangedBasic</li>
+    </weaponTags>
+    <recipeMaker>
+      <researchPrerequisite>Greatbow</researchPrerequisite><!-- Crossbow research -->
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Arrow_Great</defaultProjectile>
+        <warmupTime>1.35</warmupTime>
+        <range>33</range>
+        <soundCast>Bow_Recurve</soundCast>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>limb</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+	
 </Defs>
