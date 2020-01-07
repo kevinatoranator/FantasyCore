@@ -15,10 +15,7 @@
     
   - new weapons
     - whip
-    - crossbow
-    - scimitar
     - 2h sword
-    - halberd
     - throwing axe
     - warhammer
   
@@ -60,6 +57,11 @@
     - mithril
     - rune
     - dragon
+    
+    - weapon variants
+      - crossbow
+      - scimitar
+      - halberd
     
     - woods
       - wood
