@@ -1,6 +1,6 @@
 # FantasyCore
 
-### World of Rimscape
+### World of Rimscape XIV: Mabi edition
 
 ### TODO ###
 
@@ -10,14 +10,19 @@
     - dwarves
   
   - new animals/creatures
-    - dragon
+    - dragons
+    - imps
+    - kobolds
+    - monkeys?
+    - giant crabs
+    - penguins?
+    - platypus?
+    - sheep -> wool
     
     
   - new weapons
-    - whip
-    - 2h sword
-    - throwing axe
-    - warhammer
+    - rapier
+    - shields
   
   - new clothing/armor
    - hats
@@ -29,14 +34,23 @@
    - platemail
    - tiara
    - robes
+   - rings
+   - party hat
     
    - tiers
     - leather
     - studded leather
     
       
-  - new items
+  - new foods
     - rum
+    - apple pie
+    - ale
+    - bacon
+    - brandy
+    - cake
+    - cheese
+    - cider
     
   
   ## Level 2 ##
@@ -45,7 +59,8 @@
   - limit to medieval age
   
   - mechanics
-    - smelting
+    - smelting + furnace
+    - forge/anvil
   
   - ores/materials
     - coal
@@ -57,11 +72,18 @@
     - mithril
     - rune
     - dragon
+    - ore/ingots
+    - clay
+    - cobalt
+    - crystal
     
     - weapon variants
       - crossbow
       - scimitar
       - halberd
+      - 2h sword
+      - throwing axe
+      - warhammer
     
     - woods
       - wood
@@ -79,16 +101,38 @@
       
       - bamboo
       
+  - plants
+    - banana trees
+    - barley
+    - sugar cane
+    - coconut
   
   - chests
+  
+  - flower uses
+    - dyes
   
   - new items
     - wands
     - capes
+    - brazier
+    - tinderbox
+    - bandages
+    - nails?
+    - lanturns
+  
+  - ring buffs
+  
+  - fishing?
   
   
   ## Level 3 ##
   - new skills
   - runes
   - potions
+    - buffs
+    - antipoison
+  - poison
   - accessories
+  - totems
+  - socket gems
