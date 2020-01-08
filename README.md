@@ -8,6 +8,8 @@
   - new races
     - elves
     - dwarves
+    - goblins
+    - giants
   
   - new animals/creatures
     - dragons
@@ -18,7 +20,22 @@
     - penguins?
     - platypus?
     - sheep -> wool
-    
+    - snow bear varient
+    - skeletons
+    - gremlins
+    - wisp
+    - ghosts
+    - ogre
+    - bison
+    - golem
+    - alligator
+    - sprite
+    - wight
+    - mammoth
+    - trolls
+    - gorgon
+    - grumbill
+    - crag cow
     
   - new weapons
     - rapier
@@ -106,6 +123,7 @@
     - barley
     - sugar cane
     - coconut
+    - herbs
   
   - chests
   
@@ -124,6 +142,10 @@
   - ring buffs
   
   - fishing?
+  
+  - shock damage
+  
+  - mini bosses
   
   
   ## Level 3 ##
