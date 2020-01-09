@@ -1,11 +1,11 @@
 # FantasyCore
 
-### World of Rimscape XIV: Mabi edition
+### World of Rimscape XIV: Mabi Wars edition
 
 ### TODO ###
 
   ## Level 1 ##
-  - new races
+  - new races (expacs)
     - elves
     - dwarves
     - goblins
@@ -24,7 +24,6 @@
   
   - new animals/creatures
     - dragons
-    - imps
     - kobolds
     - monkeys?
     - giant crabs
@@ -86,48 +85,46 @@
   
   - limit to medieval age
   
+  - new items in caravans/ specialized caravans
+  - revisit "abandoned bases"/ remove abandonded base, allow visiting tiles without settling- see mod 
+  
   - mechanics
+    - ingots
     - smelting + furnace
     - forge/anvil
   
   - ores/materials
-    - coal
-    - iron 
-    - tin
-    - copper
-      - bronze
-    - adamant
-    - mithril
+    - non crucial ores are biome specific? elemental crystals?
+    - bronze
     - rune
     - dragon
-    - ore/ingots
     - clay
     - cobalt
     - crystal
     
-    - weapon variants
-      - crossbow
-      - scimitar
-      - halberd
-      - 2h sword
-      - throwing axe
-      - warhammer
+  - weapon variants
+    - crossbow
+    - scimitar
+    - halberd
+    - 2h sword
+    - throwing axe
+    - warhammer
     
-    - woods
-      - wood
-      - oak
-      - willow
-      - teak
-      - maple
-      - acadia
-      - mahogany
-      - artic pine
-      - eucalyptus
-      - yew
-      - magic
-      - elder
+  - woods
+    - wood
+    - oak
+    - willow
+    - teak
+    - maple
+    - acadia
+    - mahogany
+    - artic pine
+    - eucalyptus
+    - yew
+    - magic
+    - elder
       
-      - bamboo
+    - bamboo
       
   - plants
     - banana trees
