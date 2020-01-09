@@ -9,7 +9,18 @@
     - elves
     - dwarves
     - goblins
-    - giants
+    - norn
+    - night elf
+    - orc
+    - gnome/lalafell
+    - undead
+    - charr
+    - troll
+    - asura
+    - sylvari
+    - Au Ra
+    - Viera
+    
   
   - new animals/creatures
     - dragons
