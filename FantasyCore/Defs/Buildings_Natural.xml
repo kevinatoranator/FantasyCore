@@ -1,4 +1,34 @@
 <?xml version="1.0" encoding="etf-8" ?>
+
+<!-- Coal -->
+<Defs>
+	<ThingDef ParentName="RockBase">
+    <defName>MineableCoal</defName>
+    <label>coal deposit</label>
+    <description>Coal is found in this wall.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(114,92,83)</color>
+      <colorTwo>(5,5,5)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1000</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>Coal</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>1</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>30</min>
+        <max>40</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+
+<!-- Copper -->
 <Defs>
 	<ThingDef ParentName="RockBase">
     <defName>MineableCopper</defName>
@@ -17,6 +47,118 @@
     <building>
       <isResourceRock>true</isResourceRock>
       <mineableThing>Copper</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>1</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>30</min>
+        <max>40</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+	
+<!-- Tin -->
+<Defs>
+	<ThingDef ParentName="RockBase">
+    <defName>MineableTin</defName>
+    <label>tin deposit</label>
+    <description>Tin ore is found in this wall.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(114,92,83)</color>
+      <colorTwo>(211,212,213)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1000</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>Tin</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>1</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>30</min>
+        <max>40</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+	
+<!-- Iron -->
+<Defs>
+	<ThingDef ParentName="RockBase">
+    <defName>MineableIron</defName>
+    <label>iron deposit</label>
+    <description>Iron ore is found in this wall.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(114,92,83)</color>
+      <colorTwo>(193,195,195)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1000</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>Iron</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>1</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>30</min>
+        <max>40</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+	
+<!-- Adamant -->
+<Defs>
+	<ThingDef ParentName="RockBase">
+    <defName>MineableAdamant</defName>
+    <label>adamant deposit</label>
+    <description>Adamant ore is found in this wall.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(114,92,83)</color>
+      <colorTwo>(77,115,93)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1000</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>Adamant</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>1</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>30</min>
+        <max>40</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+	
+<!-- Mithril -->
+<Defs>
+	<ThingDef ParentName="RockBase">
+    <defName>MineableMithril</defName>
+    <label>mithril deposit</label>
+    <description>Mithril ore is found in this wall.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(114,92,83)</color>
+      <colorTwo>(150,166,209)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1000</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>Mithril</mineableThing>
       <mineableYield>40</mineableYield>
       <mineableScatterCommonality>1</mineableScatterCommonality>
       <mineableScatterLumpSizeRange>
