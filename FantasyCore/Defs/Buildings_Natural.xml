@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="etf-8" ?>
+<Defs>
+	<ThingDef ParentName="RockBase">
+    <defName>MineableCopper</defName>
+    <label>copper deposit</label>
+    <description>Copper ore is found in this wall.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(114,92,83)</color>
+      <colorTwo>(205,127,50)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1000</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>Copper</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>1</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>30</min>
+        <max>40</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+</Defs>

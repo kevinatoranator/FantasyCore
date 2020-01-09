@@ -6,7 +6,7 @@
 		<label>battle axe</label>
 		<description>An axe crafted for war</description>
 		<graphicData>
-			<texPath>BattleAxe</texPath>
+			<texPath>Weapons/BattleAxe</texPath>
 			<color>(192, 193, 189)</color>
 			<shaderType>CutoutComplex</shaderType>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -54,7 +54,7 @@
 		<label>halberd</label>
 		<description>For slicing and stabbing</description>
 		<graphicData>
-			<texPath>IronHalberd</texPath>
+			<texPath>Weapons/IronHalberd</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<techLevel>Medieval</techLevel>
@@ -108,7 +108,7 @@
 		<label>scimitar</label>
 		<description>For slicing and dicing</description>
 		<graphicData>
-			<texPath>IronScimitar</texPath>
+			<texPath>Weapons/IronScimitar</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<techLevel>Medieval</techLevel>
@@ -148,6 +148,99 @@
 		</tools>
 	</ThingDef>
 	
+	<!--Warhammer -->
+	<ThingDef ParentName="BaseMeleeWeapon_Blunt">
+		<defName>Warhammer</defName>
+		<label>warhammer</label>
+		<description>For smashing stuff</description>
+		<graphicData>
+			<texPath>Weapons/IronWarhammer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<costStuffCount>50</costStuffCount>
+		<statBases>
+			<WorkToMake>100</WorkToMake><!-- edit higher -->
+			<Mass>2.5</Mass>
+		</statBases>
+		<equippedAngleOffset>0</equippedAngleOffset>
+		
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>3</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+			<stuffCategories>
+				<li>Metallic</li>
+				<li>Woody</li>
+			</stuffCategories>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>30</power>
+				<cooldownTime>3</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+	
+	<!--2H Sword -->
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp">
+		<defName>2HSword</defName>
+		<label>2H sword</label>
+		<description>For slicing with twice the hands</description>
+		<graphicData>
+			<texPath>Weapons/Iron2HSword</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<costStuffCount>50</costStuffCount>
+		<statBases>
+			<WorkToMake>100</WorkToMake><!-- edit higher -->
+			<Mass>2.5</Mass>
+		</statBases>
+		<equippedAngleOffset>180</equippedAngleOffset>
+		
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>3</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+			<stuffCategories>
+				<li>Metallic</li>
+				<li>Woody</li>
+			</stuffCategories>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>25</power>
+				<cooldownTime>2.5</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+	
+	
 	<!-- RANGED -->
 	
 	<!-- Elven Bow -->
@@ -156,7 +249,7 @@
     <label>elven bow</label>
     <description>An elegant bow made by the finest craftsmen.</description>
     <graphicData>
-      <texPath>ElvenBow</texPath>
+      <texPath>Weapons/ElvenBow</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Bow_Large</soundInteract>
@@ -205,13 +298,13 @@
     </tools>
   </ThingDef>
   
-  <!-- Elven Bow -->
+  <!-- Crossbow -->
 	<ThingDef ParentName="BaseWeaponNeolithic">
     <defName>Crossbow</defName>
     <label>crossbow</label>
     <description>Bolt action archery.</description>
     <graphicData>
-      <texPath>WoodenCrossbow</texPath>
+      <texPath>Weapons/WoodenCrossbow</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Bow_Recurve</soundInteract>
@@ -258,6 +351,74 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+  </ThingDef>
+  
+  <!-- Throwing Axe -->
+	<ThingDef ParentName="BaseWeaponNeolithic">
+    <defName>ThrowingAxe</defName>
+    <label>throwing axe</label>
+    <description>Axes at a range</description>
+    <graphicData>
+      <texPath>Weapons/IronThrowingAxe</texPath>
+      <graphicClass>Graphic_Single</graphicClass> <!-- shrink size -->
+    </graphicData>
+    <soundInteract>Interact_BeatFire</soundInteract>
+     <costList>
+      <WoodLog>70</WoodLog> <!-- change costs -->
+    </costList>
+    <statBases>
+      <WorkToMake>100</WorkToMake><!-- edit higher -->
+      <Mass>1.5</Mass>
+      <AccuracyTouch>0.75</AccuracyTouch>
+      <AccuracyShort>0.90</AccuracyShort>
+      <AccuracyMedium>0.80</AccuracyMedium>
+      <AccuracyLong>0.70</AccuracyLong>
+      <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+    </statBases>
+	<equippedAngleOffset>0</equippedAngleOffset>
+    <weaponTags>
+      <li>NeolithicRangedHeavy</li>
+    </weaponTags>
+    <verbs> <!-- spin -->
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Thrown_Axe</defaultProjectile><!-- edit to thrown axe-->
+        <warmupTime>1.35</warmupTime>
+        <range>33</range>
+        <soundCast>Interact_BeatFire</soundCast> <!-- impact sound like arrows/bullets -->
+		<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>limb</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+  <!-- Thrown Axe -->
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>Thrown_Axe</defName>
+    <label>thrown axe</label>
+    <graphicData>
+      <texPath>Weapons/IronThrowingAxeSmall</texPath> <!-- Create real thrown axe-->
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>RangedStab</damageDef>
+      <damageAmountBase>25</damageAmountBase>
+      <stoppingPower>2.5</stoppingPower>
+	  <armorPenetrationBase>0.10</armorPenetrationBase>
+      <speed>26</speed>
+    </projectile>
   </ThingDef>
 	
 </Defs>

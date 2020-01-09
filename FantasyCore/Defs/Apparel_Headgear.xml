@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="etf-8" ?>
+<Defs>
+	<ThingDef ParentName="HatMakeableBase">
+		<defName>WizardHat</defName>
+		<label>wizard hat</label>
+		<description>A hat for the classiest of wizards.</description>
+		<graphicData>
+			<texPath>Apparel/WizardHat</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<tradeability>Sellable</tradeability>
+        <generateCommonality>0.25</generateCommonality>
+		<costStuffCount>30</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>2000</WorkToMake>
+			<Mass>0.1</Mass>
+            <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.4</StuffEffectMultiplierInsulation_Heat> <!-- hot -->
+            <EquipDelay>0.8</EquipDelay>
+		</statBases>
+		<equippedStatOffsets><!-- Will need balance -->
+			<PsychicSensitivity>-0.3</PsychicSensitivity>
+			<ShootingAccuracyPawn>3</ShootingAccuracyPawn>
+			<AimingDelayFactor>-0.2</AimingDelayFactor>
+		</equippedStatOffsets>
+		<thingCategories Inherit="False">
+			<li>Headgear</li>
+		</thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/WizardHat</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>IndustrialBasic</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+            </defaultOutfitTags>
+		</apparel>
+		<recipeMaker>
+			<recipeUsers Inherit="False">
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+</Defs>
