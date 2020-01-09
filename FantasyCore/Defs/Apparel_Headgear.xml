@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="etf-8" ?>
 <Defs>
+	
+	<!-- Wizard Hat-->
 	<ThingDef ParentName="HatMakeableBase">
 		<defName>WizardHat</defName>
 		<label>wizard hat</label>
@@ -51,6 +53,106 @@
 			<recipeUsers Inherit="False">
 				<li>ElectricTailoringBench</li>
 				<li>HandTailoringBench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+	
+	<!-- Full Helm-->
+	<ThingDef ParentName="HatMakeableBase">
+		<defName>FullHelm</defName>
+		<label>full helm</label>
+		<description>Armored headgear that offers maximum protection.</description>
+		<graphicData>
+			<texPath>Apparel/WizardHat</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<tradeability>Sellable</tradeability>
+        <generateCommonality>0.25</generateCommonality>
+		<costStuffCount>90</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>2000</WorkToMake>
+			<Mass>0.1</Mass>
+            <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.4</StuffEffectMultiplierInsulation_Heat> <!-- hot -->
+            <EquipDelay>0.8</EquipDelay>
+		</statBases>
+		<thingCategories Inherit="False">
+			<li>Headgear</li>
+		</thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/FullHelm</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>MedievalMilitary</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+            </defaultOutfitTags>
+		</apparel>
+		<recipeMaker>
+			<recipeUsers Inherit="False">
+				<li>FueledSmithy</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+	
+	<!-- Medium Helm-->
+	<ThingDef ParentName="HatMakeableBase">
+		<defName>MedHelm</defName>
+		<label>medium helm</label>
+		<description>Armor that protects most of the head.</description>
+		<graphicData>
+			<texPath>Apparel/MedHelm</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<tradeability>Sellable</tradeability>
+        <generateCommonality>0.25</generateCommonality>
+		<costStuffCount>30</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>2000</WorkToMake>
+			<Mass>0.1</Mass>
+            <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.4</StuffEffectMultiplierInsulation_Heat> <!-- hot -->
+            <EquipDelay>0.8</EquipDelay>
+		</statBases>
+		<thingCategories Inherit="False">
+			<li>Headgear</li>
+		</thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/MedHelm</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>MedievalMilitary</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+            </defaultOutfitTags>
+		</apparel>
+		<recipeMaker>
+			<recipeUsers Inherit="False">
+				<li>FueledSmithy</li>
 			</recipeUsers>
 		</recipeMaker>
 	</ThingDef>
