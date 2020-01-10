@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!-- Oak Log -->
+<ThingDef ParentName="ResourceBase">
+    <defName>OakLog</defName>
+    <label>oak log</label>
+    <description>A log from an oak tree.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/OakLog</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>50</stackLimit>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <MarketValue>32</MarketValue>
+      <Mass>0.6</Mass>
+      <Flammability>0.6</Flammability> <!-- higher -->
+			<DeteriorationRate>2.0</DeteriorationRate> <!-- adjust-->
+		</statBases>
+    <intricate>true</intricate>
+    <thingCategories>
+      <li>Items</li> <!-- Maybe add some new ones/change-->
+    </thingCategories>
+  </ThingDef>
+  
+  <!-- Willow Log -->
+<ThingDef ParentName="ResourceBase">
+    <defName>WillowLog</defName>
+    <label>willow log</label>
+    <description>A log from a willow tree.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/WillowLog</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>50</stackLimit>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <MarketValue>32</MarketValue>
+      <Mass>0.6</Mass>
+      <Flammability>0.6</Flammability> <!-- higher -->
+			<DeteriorationRate>2.0</DeteriorationRate> <!-- adjust-->
+		</statBases>
+    <intricate>true</intricate>
+    <thingCategories>
+      <li>Items</li> <!-- Maybe add some new ones/change-->
+    </thingCategories>
+  </ThingDef>
+  
+  <!-- Teak Log -->
+<ThingDef ParentName="ResourceBase">
+    <defName>TeakLog</defName>
+    <label>teak log</label>
+    <description>A log from a teak tree.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/TeakLog</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>50</stackLimit>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <MarketValue>32</MarketValue>
+      <Mass>0.6</Mass>
+      <Flammability>0.6</Flammability> <!-- higher -->
+			<DeteriorationRate>2.0</DeteriorationRate> <!-- adjust-->
+		</statBases>
+    <intricate>true</intricate>
+    <thingCategories>
+      <li>Items</li> <!-- Maybe add some new ones/change-->
+    </thingCategories>
+  </ThingDef>
+  
+  <!-- Maple Log -->
+<ThingDef ParentName="ResourceBase">
+    <defName>MapleLog</defName>
+    <label>maple log</label>
+    <description>A log from a maple tree.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/MapleLog</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>50</stackLimit>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <MarketValue>32</MarketValue>
+      <Mass>0.6</Mass>
+      <Flammability>0.6</Flammability> <!-- higher -->
+			<DeteriorationRate>2.0</DeteriorationRate> <!-- adjust-->
+		</statBases>
+    <intricate>true</intricate>
+    <thingCategories>
+      <li>Items</li> <!-- Maybe add some new ones/change-->
+    </thingCategories>
+  </ThingDef>
+  
+  <!-- Acadia Log -->
+<ThingDef ParentName="ResourceBase">
+    <defName>AcadiaLog</defName>
+    <label>acadia log</label>
+    <description>A log from an acadia tree.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/AcadiaLog</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>50</stackLimit>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <MarketValue>32</MarketValue>
+      <Mass>0.6</Mass>
+      <Flammability>0.6</Flammability> <!-- higher -->
+			<DeteriorationRate>2.0</DeteriorationRate> <!-- adjust-->
+		</statBases>
+    <intricate>true</intricate>
+    <thingCategories>
+      <li>Items</li> <!-- Maybe add some new ones/change-->
+    </thingCategories>
+  </ThingDef>
+  
+  <!-- Mahogany Log -->
+<ThingDef ParentName="ResourceBase">
+    <defName>MahoganyLog</defName>
+    <label>mahogany log</label>
+    <description>A log from a mahogany tree.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/MahoganyLog</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>50</stackLimit>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <MarketValue>32</MarketValue>
+      <Mass>0.6</Mass>
+      <Flammability>0.6</Flammability> <!-- higher -->
+			<DeteriorationRate>2.0</DeteriorationRate> <!-- adjust-->
+		</statBases>
+    <intricate>true</intricate>
+    <thingCategories>
+      <li>Items</li> <!-- Maybe add some new ones/change-->
+    </thingCategories>
+  </ThingDef>
+  
+  <!-- Artic Pine Log -->
+<ThingDef ParentName="ResourceBase">
+    <defName>ArticPineLog</defName>
+    <label>artic pine log</label>
+    <description>A log from an artic pine tree.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/ArticPineLog</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>50</stackLimit>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <MarketValue>32</MarketValue>
+      <Mass>0.6</Mass>
+      <Flammability>0.6</Flammability> <!-- higher -->
+			<DeteriorationRate>2.0</DeteriorationRate> <!-- adjust-->
+		</statBases>
+    <intricate>true</intricate>
+    <thingCategories>
+      <li>Items</li> <!-- Maybe add some new ones/change-->
+    </thingCategories>
+  </ThingDef>
+  
+  <!-- Eucalyptus Log -->
+<ThingDef ParentName="ResourceBase">
+    <defName>EucalyptusLog</defName>
+    <label>eucalypytus log</label>
+    <description>A log from a eucalyptus tree.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/EucalyptusLog</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>50</stackLimit>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <MarketValue>32</MarketValue>
+      <Mass>0.6</Mass>
+      <Flammability>0.6</Flammability> <!-- higher -->
+			<DeteriorationRate>2.0</DeteriorationRate> <!-- adjust-->
+		</statBases>
+    <intricate>true</intricate>
+    <thingCategories>
+      <li>Items</li> <!-- Maybe add some new ones/change-->
+    </thingCategories>
+  </ThingDef>
+  
+  <!-- Yew Log -->
+<ThingDef ParentName="ResourceBase">
+    <defName>YewLog</defName>
+    <label>yew log</label>
+    <description>A log from a yew tree.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/YewLog</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>50</stackLimit>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <MarketValue>32</MarketValue>
+      <Mass>0.6</Mass>
+      <Flammability>0.6</Flammability> <!-- higher -->
+			<DeteriorationRate>2.0</DeteriorationRate> <!-- adjust-->
+		</statBases>
+    <intricate>true</intricate>
+    <thingCategories>
+      <li>Items</li> <!-- Maybe add some new ones/change-->
+    </thingCategories>
+  </ThingDef>
+  
+  <!-- Magic Log -->
+<ThingDef ParentName="ResourceBase">
+    <defName>MagicLog</defName>
+    <label>magic log</label>
+    <description>A log from a magic tree.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/MagicLog</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>50</stackLimit>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <MarketValue>32</MarketValue>
+      <Mass>0.6</Mass>
+      <Flammability>0.6</Flammability> <!-- higher -->
+			<DeteriorationRate>2.0</DeteriorationRate> <!-- adjust-->
+		</statBases>
+    <intricate>true</intricate>
+    <thingCategories>
+      <li>Items</li> <!-- Maybe add some new ones/change-->
+    </thingCategories>
+  </ThingDef>
+  
+  <!-- Elder Log -->
+<ThingDef ParentName="ResourceBase">
+    <defName>ElderLog</defName>
+    <label>elder log</label>
+    <description>A log from an elder tree.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/ElderLog</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>50</stackLimit>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <MarketValue>32</MarketValue>
+      <Mass>0.6</Mass>
+      <Flammability>0.6</Flammability> <!-- higher -->
+			<DeteriorationRate>2.0</DeteriorationRate> <!-- adjust-->
+		</statBases>
+    <intricate>true</intricate>
+    <thingCategories>
+      <li>Items</li> <!-- Maybe add some new ones/change-->
+    </thingCategories>
+  </ThingDef>
+
+</Defs>
