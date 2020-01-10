@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-<ThingDef ParentName="PlantBase" Name="TreeBase" Abstract="True">
+	
+<!-- Oak Tree-->
+<ThingDef ParentName="TreeBase">
+	<defName>OakTree</defName>
+	<label>oak tree</label>
+	<description>An oak tree</description>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
       <Flammability>0.8</Flammability>
@@ -34,7 +39,596 @@
       </sowResearchPrerequisites>
       <mustBeWildToSow>true</mustBeWildToSow>
       <harvestWork>800</harvestWork>
-      <harvestedThingDef>WoodLog</harvestedThingDef>
+      <harvestedThingDef>OakLog</harvestedThingDef>
+      <harvestYield>50</harvestYield>
+      <harvestTag>Wood</harvestTag>
+      <harvestMinGrowth>0.40</harvestMinGrowth>
+      <harvestFailable>false</harvestFailable>
+      <blockAdjacentSow>true</blockAdjacentSow>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <visualSizeRange>
+        <min>1.3</min>
+        <max>2.0</max>
+      </visualSizeRange>
+      <topWindExposure>0.25</topWindExposure>
+      <wildClusterRadius>8</wildClusterRadius>
+      <wildClusterWeight>24</wildClusterWeight>
+      <wildOrder>3</wildOrder>
+      <interferesWithRoof>true</interferesWithRoof>
+    </plant>
+  </ThingDef>
+	
+<!-- Willow Tree-->
+<ThingDef ParentName="TreeBase">
+	<defName>WillowTree</defName>
+	<label>willow tree</label>
+	<description>A willow tree</description>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Flammability>0.8</Flammability>
+      <Nutrition>1.7</Nutrition>
+    </statBases>
+    <altitudeLayer>Building</altitudeLayer>
+    <selectable>true</selectable>
+    <fillPercent>0.25</fillPercent>
+    <graphicData>
+      <shadowData>
+        <volume>(0.2, 0.35, 0.13)</volume>
+				<offset>(0,0,-0.42)</offset>
+			</shadowData>
+    </graphicData>
+    <passability>PassThroughOnly</passability>
+    <pathCost>130</pathCost>
+    <blockWind>true</blockWind>
+    <ingestible>
+      <foodType>Tree</foodType>
+      <preferability>RawBad</preferability>
+    </ingestible>
+    <plant>
+      <lifespanDaysPerGrowDays>9</lifespanDaysPerGrowDays>
+			<fertilitySensitivity>0.5</fertilitySensitivity>
+			<soundHarvesting>Harvest_Tree</soundHarvesting>
+      <soundHarvestFinish>Harvest_Tree_Finish</soundHarvestFinish>
+      <sowWork>4000</sowWork>
+      <sowMinSkill>6</sowMinSkill>
+      <sowResearchPrerequisites>
+        <li>TreeSowing</li>
+      </sowResearchPrerequisites>
+      <mustBeWildToSow>true</mustBeWildToSow>
+      <harvestWork>800</harvestWork>
+      <harvestedThingDef>WillowLog</harvestedThingDef>
+      <harvestYield>50</harvestYield>
+      <harvestTag>Wood</harvestTag>
+      <harvestMinGrowth>0.40</harvestMinGrowth>
+      <harvestFailable>false</harvestFailable>
+      <blockAdjacentSow>true</blockAdjacentSow>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <visualSizeRange>
+        <min>1.3</min>
+        <max>2.0</max>
+      </visualSizeRange>
+      <topWindExposure>0.25</topWindExposure>
+      <wildClusterRadius>8</wildClusterRadius>
+      <wildClusterWeight>24</wildClusterWeight>
+      <wildOrder>3</wildOrder>
+      <interferesWithRoof>true</interferesWithRoof>
+    </plant>
+  </ThingDef>
+	
+	<!-- Teak Tree-->
+<ThingDef ParentName="TreeBase">
+	<defName>TeakTree</defName>
+	<label>teak tree</label>
+	<description>A teak tree</description>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Flammability>0.8</Flammability>
+      <Nutrition>1.7</Nutrition>
+    </statBases>
+    <altitudeLayer>Building</altitudeLayer>
+    <selectable>true</selectable>
+    <fillPercent>0.25</fillPercent>
+    <graphicData>
+      <shadowData>
+        <volume>(0.2, 0.35, 0.13)</volume>
+				<offset>(0,0,-0.42)</offset>
+			</shadowData>
+    </graphicData>
+    <passability>PassThroughOnly</passability>
+    <pathCost>130</pathCost>
+    <blockWind>true</blockWind>
+    <ingestible>
+      <foodType>Tree</foodType>
+      <preferability>RawBad</preferability>
+    </ingestible>
+    <plant>
+      <lifespanDaysPerGrowDays>9</lifespanDaysPerGrowDays>
+			<fertilitySensitivity>0.5</fertilitySensitivity>
+			<soundHarvesting>Harvest_Tree</soundHarvesting>
+      <soundHarvestFinish>Harvest_Tree_Finish</soundHarvestFinish>
+      <sowWork>4000</sowWork>
+      <sowMinSkill>6</sowMinSkill>
+      <sowResearchPrerequisites>
+        <li>TreeSowing</li>
+      </sowResearchPrerequisites>
+      <mustBeWildToSow>true</mustBeWildToSow>
+      <harvestWork>800</harvestWork>
+      <harvestedThingDef>TeakLog</harvestedThingDef>
+      <harvestYield>50</harvestYield>
+      <harvestTag>Wood</harvestTag>
+      <harvestMinGrowth>0.40</harvestMinGrowth>
+      <harvestFailable>false</harvestFailable>
+      <blockAdjacentSow>true</blockAdjacentSow>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <visualSizeRange>
+        <min>1.3</min>
+        <max>2.0</max>
+      </visualSizeRange>
+      <topWindExposure>0.25</topWindExposure>
+      <wildClusterRadius>8</wildClusterRadius>
+      <wildClusterWeight>24</wildClusterWeight>
+      <wildOrder>3</wildOrder>
+      <interferesWithRoof>true</interferesWithRoof>
+    </plant>
+  </ThingDef>
+	
+	<!-- Maple Tree-->
+<ThingDef ParentName="TreeBase">
+	<defName>MapleTree</defName>
+	<label>maple tree</label>
+	<description>A maple tree</description>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Flammability>0.8</Flammability>
+      <Nutrition>1.7</Nutrition>
+    </statBases>
+    <altitudeLayer>Building</altitudeLayer>
+    <selectable>true</selectable>
+    <fillPercent>0.25</fillPercent>
+    <graphicData>
+      <shadowData>
+        <volume>(0.2, 0.35, 0.13)</volume>
+				<offset>(0,0,-0.42)</offset>
+			</shadowData>
+    </graphicData>
+    <passability>PassThroughOnly</passability>
+    <pathCost>130</pathCost>
+    <blockWind>true</blockWind>
+    <ingestible>
+      <foodType>Tree</foodType>
+      <preferability>RawBad</preferability>
+    </ingestible>
+    <plant>
+      <lifespanDaysPerGrowDays>9</lifespanDaysPerGrowDays>
+			<fertilitySensitivity>0.5</fertilitySensitivity>
+			<soundHarvesting>Harvest_Tree</soundHarvesting>
+      <soundHarvestFinish>Harvest_Tree_Finish</soundHarvestFinish>
+      <sowWork>4000</sowWork>
+      <sowMinSkill>7</sowMinSkill>
+      <sowResearchPrerequisites>
+        <li>TreeSowing</li>
+      </sowResearchPrerequisites>
+      <mustBeWildToSow>true</mustBeWildToSow>
+      <harvestWork>800</harvestWork>
+      <harvestedThingDef>MapleLog</harvestedThingDef>
+      <harvestYield>50</harvestYield>
+      <harvestTag>Wood</harvestTag>
+      <harvestMinGrowth>0.40</harvestMinGrowth>
+      <harvestFailable>false</harvestFailable>
+      <blockAdjacentSow>true</blockAdjacentSow>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <visualSizeRange>
+        <min>1.3</min>
+        <max>2.0</max>
+      </visualSizeRange>
+      <topWindExposure>0.25</topWindExposure>
+      <wildClusterRadius>8</wildClusterRadius>
+      <wildClusterWeight>24</wildClusterWeight>
+      <wildOrder>3</wildOrder>
+      <interferesWithRoof>true</interferesWithRoof>
+    </plant>
+  </ThingDef>
+	
+	<!-- Acadia Tree-->
+<ThingDef ParentName="TreeBase">
+	<defName>AcadiaTree</defName>
+	<label>acadia tree</label>
+	<description>An acadia tree</description>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Flammability>0.8</Flammability>
+      <Nutrition>1.7</Nutrition>
+    </statBases>
+    <altitudeLayer>Building</altitudeLayer>
+    <selectable>true</selectable>
+    <fillPercent>0.25</fillPercent>
+    <graphicData>
+      <shadowData>
+        <volume>(0.2, 0.35, 0.13)</volume>
+				<offset>(0,0,-0.42)</offset>
+			</shadowData>
+    </graphicData>
+    <passability>PassThroughOnly</passability>
+    <pathCost>130</pathCost>
+    <blockWind>true</blockWind>
+    <ingestible>
+      <foodType>Tree</foodType>
+      <preferability>RawBad</preferability>
+    </ingestible>
+    <plant>
+      <lifespanDaysPerGrowDays>9</lifespanDaysPerGrowDays>
+			<fertilitySensitivity>0.5</fertilitySensitivity>
+			<soundHarvesting>Harvest_Tree</soundHarvesting>
+      <soundHarvestFinish>Harvest_Tree_Finish</soundHarvestFinish>
+      <sowWork>4000</sowWork>
+      <sowMinSkill>6</sowMinSkill>
+      <sowResearchPrerequisites>
+        <li>TreeSowing</li>
+      </sowResearchPrerequisites>
+      <mustBeWildToSow>true</mustBeWildToSow>
+      <harvestWork>800</harvestWork>
+      <harvestedThingDef>AcadiaLog</harvestedThingDef>
+      <harvestYield>50</harvestYield>
+      <harvestTag>Wood</harvestTag>
+      <harvestMinGrowth>0.40</harvestMinGrowth>
+      <harvestFailable>false</harvestFailable>
+      <blockAdjacentSow>true</blockAdjacentSow>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <visualSizeRange>
+        <min>1.3</min>
+        <max>2.0</max>
+      </visualSizeRange>
+      <topWindExposure>0.25</topWindExposure>
+      <wildClusterRadius>8</wildClusterRadius>
+      <wildClusterWeight>24</wildClusterWeight>
+      <wildOrder>3</wildOrder>
+      <interferesWithRoof>true</interferesWithRoof>
+    </plant>
+  </ThingDef>
+	
+	<!-- Mahogany Tree-->
+<ThingDef ParentName="TreeBase">
+	<defName>MahoganyTree</defName>
+	<label>mahogany tree</label>
+	<description>A mahogany tree</description>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Flammability>0.8</Flammability>
+      <Nutrition>1.7</Nutrition>
+    </statBases>
+    <altitudeLayer>Building</altitudeLayer>
+    <selectable>true</selectable>
+    <fillPercent>0.25</fillPercent>
+    <graphicData>
+      <shadowData>
+        <volume>(0.2, 0.35, 0.13)</volume>
+				<offset>(0,0,-0.42)</offset>
+			</shadowData>
+    </graphicData>
+    <passability>PassThroughOnly</passability>
+    <pathCost>130</pathCost>
+    <blockWind>true</blockWind>
+    <ingestible>
+      <foodType>Tree</foodType>
+      <preferability>RawBad</preferability>
+    </ingestible>
+    <plant>
+      <lifespanDaysPerGrowDays>9</lifespanDaysPerGrowDays>
+			<fertilitySensitivity>0.5</fertilitySensitivity>
+			<soundHarvesting>Harvest_Tree</soundHarvesting>
+      <soundHarvestFinish>Harvest_Tree_Finish</soundHarvestFinish>
+      <sowWork>4000</sowWork>
+      <sowMinSkill>9</sowMinSkill>
+      <sowResearchPrerequisites>
+        <li>TreeSowing</li>
+      </sowResearchPrerequisites>
+      <mustBeWildToSow>true</mustBeWildToSow>
+      <harvestWork>800</harvestWork>
+      <harvestedThingDef>MahoganyLog</harvestedThingDef>
+      <harvestYield>50</harvestYield>
+      <harvestTag>Wood</harvestTag>
+      <harvestMinGrowth>0.40</harvestMinGrowth>
+      <harvestFailable>false</harvestFailable>
+      <blockAdjacentSow>true</blockAdjacentSow>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <visualSizeRange>
+        <min>1.3</min>
+        <max>2.0</max>
+      </visualSizeRange>
+      <topWindExposure>0.25</topWindExposure>
+      <wildClusterRadius>8</wildClusterRadius>
+      <wildClusterWeight>24</wildClusterWeight>
+      <wildOrder>3</wildOrder>
+      <interferesWithRoof>true</interferesWithRoof>
+    </plant>
+  </ThingDef>
+	
+	<!-- Artic Pine Tree-->
+<ThingDef ParentName="TreeBase">
+	<defName>ArticPineTree</defName>
+	<label>artic pine tree</label>
+	<description>An artic pine tree</description>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Flammability>0.8</Flammability>
+      <Nutrition>1.7</Nutrition>
+    </statBases>
+    <altitudeLayer>Building</altitudeLayer>
+    <selectable>true</selectable>
+    <fillPercent>0.25</fillPercent>
+    <graphicData>
+      <shadowData>
+        <volume>(0.2, 0.35, 0.13)</volume>
+				<offset>(0,0,-0.42)</offset>
+			</shadowData>
+    </graphicData>
+    <passability>PassThroughOnly</passability>
+    <pathCost>130</pathCost>
+    <blockWind>true</blockWind>
+    <ingestible>
+      <foodType>Tree</foodType>
+      <preferability>RawBad</preferability>
+    </ingestible>
+    <plant>
+      <lifespanDaysPerGrowDays>9</lifespanDaysPerGrowDays>
+			<fertilitySensitivity>0.5</fertilitySensitivity>
+			<soundHarvesting>Harvest_Tree</soundHarvesting>
+      <soundHarvestFinish>Harvest_Tree_Finish</soundHarvestFinish>
+      <sowWork>4000</sowWork>
+      <sowMinSkill>6</sowMinSkill>
+      <sowResearchPrerequisites>
+        <li>TreeSowing</li>
+      </sowResearchPrerequisites>
+      <mustBeWildToSow>true</mustBeWildToSow>
+      <harvestWork>800</harvestWork>
+      <harvestedThingDef>ArticPineLog</harvestedThingDef>
+      <harvestYield>50</harvestYield>
+      <harvestTag>Wood</harvestTag>
+      <harvestMinGrowth>0.40</harvestMinGrowth>
+      <harvestFailable>false</harvestFailable>
+      <blockAdjacentSow>true</blockAdjacentSow>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <visualSizeRange>
+        <min>1.3</min>
+        <max>2.0</max>
+      </visualSizeRange>
+      <topWindExposure>0.25</topWindExposure>
+      <wildClusterRadius>8</wildClusterRadius>
+      <wildClusterWeight>24</wildClusterWeight>
+      <wildOrder>3</wildOrder>
+      <interferesWithRoof>true</interferesWithRoof>
+    </plant>
+  </ThingDef>
+	<!-- Eucalyptus Tree-->
+<ThingDef ParentName="TreeBase">
+	<defName>EucalyptusTree</defName>
+	<label>eucalyptus tree</label>
+	<description>A eucalyptus tree</description>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Flammability>0.8</Flammability>
+      <Nutrition>1.7</Nutrition>
+    </statBases>
+    <altitudeLayer>Building</altitudeLayer>
+    <selectable>true</selectable>
+    <fillPercent>0.25</fillPercent>
+    <graphicData>
+      <shadowData>
+        <volume>(0.2, 0.35, 0.13)</volume>
+				<offset>(0,0,-0.42)</offset>
+			</shadowData>
+    </graphicData>
+    <passability>PassThroughOnly</passability>
+    <pathCost>130</pathCost>
+    <blockWind>true</blockWind>
+    <ingestible>
+      <foodType>Tree</foodType>
+      <preferability>RawBad</preferability>
+    </ingestible>
+    <plant>
+      <lifespanDaysPerGrowDays>9</lifespanDaysPerGrowDays>
+			<fertilitySensitivity>0.5</fertilitySensitivity>
+			<soundHarvesting>Harvest_Tree</soundHarvesting>
+      <soundHarvestFinish>Harvest_Tree_Finish</soundHarvestFinish>
+      <sowWork>4000</sowWork>
+      <sowMinSkill>6</sowMinSkill>
+      <sowResearchPrerequisites>
+        <li>TreeSowing</li>
+      </sowResearchPrerequisites>
+      <mustBeWildToSow>true</mustBeWildToSow>
+      <harvestWork>800</harvestWork>
+      <harvestedThingDef>EucalyptusLog</harvestedThingDef>
+      <harvestYield>50</harvestYield>
+      <harvestTag>Wood</harvestTag>
+      <harvestMinGrowth>0.40</harvestMinGrowth>
+      <harvestFailable>false</harvestFailable>
+      <blockAdjacentSow>true</blockAdjacentSow>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <visualSizeRange>
+        <min>1.3</min>
+        <max>2.0</max>
+      </visualSizeRange>
+      <topWindExposure>0.25</topWindExposure>
+      <wildClusterRadius>8</wildClusterRadius>
+      <wildClusterWeight>24</wildClusterWeight>
+      <wildOrder>3</wildOrder>
+      <interferesWithRoof>true</interferesWithRoof>
+    </plant>
+  </ThingDef>
+	
+	<!-- Yew Tree-->
+<ThingDef ParentName="TreeBase">
+	<defName>YewTree</defName>
+	<label>yew tree</label>
+	<description>A yew tree</description>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Flammability>0.8</Flammability>
+      <Nutrition>1.7</Nutrition>
+    </statBases>
+    <altitudeLayer>Building</altitudeLayer>
+    <selectable>true</selectable>
+    <fillPercent>0.25</fillPercent>
+    <graphicData>
+      <shadowData>
+        <volume>(0.2, 0.35, 0.13)</volume>
+				<offset>(0,0,-0.42)</offset>
+			</shadowData>
+    </graphicData>
+    <passability>PassThroughOnly</passability>
+    <pathCost>130</pathCost>
+    <blockWind>true</blockWind>
+    <ingestible>
+      <foodType>Tree</foodType>
+      <preferability>RawBad</preferability>
+    </ingestible>
+    <plant>
+      <lifespanDaysPerGrowDays>9</lifespanDaysPerGrowDays>
+			<fertilitySensitivity>0.5</fertilitySensitivity>
+			<soundHarvesting>Harvest_Tree</soundHarvesting>
+      <soundHarvestFinish>Harvest_Tree_Finish</soundHarvestFinish>
+      <sowWork>4000</sowWork>
+      <sowMinSkill>11</sowMinSkill>
+      <sowResearchPrerequisites>
+        <li>TreeSowing</li>
+      </sowResearchPrerequisites>
+      <mustBeWildToSow>true</mustBeWildToSow>
+      <harvestWork>800</harvestWork>
+      <harvestedThingDef>YewLog</harvestedThingDef>
+      <harvestYield>50</harvestYield>
+      <harvestTag>Wood</harvestTag>
+      <harvestMinGrowth>0.40</harvestMinGrowth>
+      <harvestFailable>false</harvestFailable>
+      <blockAdjacentSow>true</blockAdjacentSow>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <visualSizeRange>
+        <min>1.3</min>
+        <max>2.0</max>
+      </visualSizeRange>
+      <topWindExposure>0.25</topWindExposure>
+      <wildClusterRadius>8</wildClusterRadius>
+      <wildClusterWeight>24</wildClusterWeight>
+      <wildOrder>3</wildOrder>
+      <interferesWithRoof>true</interferesWithRoof>
+    </plant>
+  </ThingDef>
+	
+	<!-- Magic Tree-->
+<ThingDef ParentName="TreeBase">
+	<defName>MagicTree</defName>
+	<label>magic tree</label>
+	<description>An magic tree</description>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Flammability>0.8</Flammability>
+      <Nutrition>1.7</Nutrition>
+    </statBases>
+    <altitudeLayer>Building</altitudeLayer>
+    <selectable>true</selectable>
+    <fillPercent>0.25</fillPercent>
+    <graphicData>
+      <shadowData>
+        <volume>(0.2, 0.35, 0.13)</volume>
+				<offset>(0,0,-0.42)</offset>
+			</shadowData>
+    </graphicData>
+    <passability>PassThroughOnly</passability>
+    <pathCost>130</pathCost>
+    <blockWind>true</blockWind>
+    <ingestible>
+      <foodType>Tree</foodType>
+      <preferability>RawBad</preferability>
+    </ingestible>
+    <plant>
+      <lifespanDaysPerGrowDays>9</lifespanDaysPerGrowDays>
+			<fertilitySensitivity>0.5</fertilitySensitivity>
+			<soundHarvesting>Harvest_Tree</soundHarvesting>
+      <soundHarvestFinish>Harvest_Tree_Finish</soundHarvestFinish>
+      <sowWork>4000</sowWork>
+      <sowMinSkill>13</sowMinSkill>
+      <sowResearchPrerequisites>
+        <li>TreeSowing</li>
+      </sowResearchPrerequisites>
+      <mustBeWildToSow>true</mustBeWildToSow>
+      <harvestWork>800</harvestWork>
+      <harvestedThingDef>MagicLog</harvestedThingDef>
+      <harvestYield>50</harvestYield>
+      <harvestTag>Wood</harvestTag>
+      <harvestMinGrowth>0.40</harvestMinGrowth>
+      <harvestFailable>false</harvestFailable>
+      <blockAdjacentSow>true</blockAdjacentSow>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <visualSizeRange>
+        <min>1.3</min>
+        <max>2.0</max>
+      </visualSizeRange>
+      <topWindExposure>0.25</topWindExposure>
+      <wildClusterRadius>8</wildClusterRadius>
+      <wildClusterWeight>24</wildClusterWeight>
+      <wildOrder>3</wildOrder>
+      <interferesWithRoof>true</interferesWithRoof>
+    </plant>
+  </ThingDef>
+	
+	<!-- Elder Tree-->
+<ThingDef ParentName="TreeBase">
+	<defName>ElderTree</defName>
+	<label>elder tree</label>
+	<description>An elder tree</description>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Flammability>0.8</Flammability>
+      <Nutrition>1.7</Nutrition>
+    </statBases>
+    <altitudeLayer>Building</altitudeLayer>
+    <selectable>true</selectable>
+    <fillPercent>0.25</fillPercent>
+    <graphicData>
+      <shadowData>
+        <volume>(0.2, 0.35, 0.13)</volume>
+				<offset>(0,0,-0.42)</offset>
+			</shadowData>
+    </graphicData>
+    <passability>PassThroughOnly</passability>
+    <pathCost>130</pathCost>
+    <blockWind>true</blockWind>
+    <ingestible>
+      <foodType>Tree</foodType>
+      <preferability>RawBad</preferability>
+    </ingestible>
+    <plant>
+      <lifespanDaysPerGrowDays>9</lifespanDaysPerGrowDays>
+			<fertilitySensitivity>0.5</fertilitySensitivity>
+			<soundHarvesting>Harvest_Tree</soundHarvesting>
+      <soundHarvestFinish>Harvest_Tree_Finish</soundHarvestFinish>
+      <sowWork>4000</sowWork>
+      <sowMinSkill>15</sowMinSkill>
+      <sowResearchPrerequisites>
+        <li>TreeSowing</li>
+      </sowResearchPrerequisites>
+      <mustBeWildToSow>true</mustBeWildToSow>
+      <harvestWork>800</harvestWork>
+      <harvestedThingDef>ElderLog</harvestedThingDef>
       <harvestYield>50</harvestYield>
       <harvestTag>Wood</harvestTag>
       <harvestMinGrowth>0.40</harvestMinGrowth>
