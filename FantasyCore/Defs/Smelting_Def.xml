@@ -1,9 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+<!-- Copper Ingot -->
 <ThingDef ParentName="ResourceBase">
-    <defName>ComponentIndustrial</defName>
-    <label>component</label>
-    <description>Miscellaneous gears, capacitors, circuit boards, tubes, wheels, sensors, wires, chips, processors, and other electronic and industrial parts. Necessary for assembling complex machines or electronics.</description>
+    <defName>CopperIngot</defName>
+    <label>copper ingot</label>
+    <description>An ingot of copper.</description>
     <graphicData>
-      <texPath>Things/Item/Resource/ComponentIndustrial</texPath>
+      <texPath>Things/Item/Resource/CopperIngot</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <soundInteract>Metal_Drop</soundInteract>
@@ -21,3 +25,104 @@
       <li>Items</li> <!-- Maybe add some new ones-->
     </thingCategories>
   </ThingDef>
+
+<!-- Bronze Ingot -->
+<ThingDef ParentName="ResourceBase">
+    <defName>BronzeIngot</defName>
+    <label>bronze ingot</label>
+    <description>An ingot of bronze.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/BronzeIngot</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>50</stackLimit>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <MarketValue>32</MarketValue>
+      <Mass>0.6</Mass>
+      <Flammability>0.6</Flammability>
+			<DeteriorationRate>2.0</DeteriorationRate>
+		</statBases>
+    <intricate>true</intricate>
+    <thingCategories>
+      <li>Items</li> <!-- Maybe add some new ones-->
+    </thingCategories>
+  </ThingDef>
+	
+<!-- Iron Ingot -->
+<ThingDef ParentName="ResourceBase">
+    <defName>IronIngot</defName>
+    <label>iron ingot</label>
+    <description>An ingot of iron.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/IronIngot</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>50</stackLimit>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <MarketValue>32</MarketValue>
+      <Mass>0.6</Mass>
+      <Flammability>0.6</Flammability>
+			<DeteriorationRate>2.0</DeteriorationRate>
+		</statBases>
+    <intricate>true</intricate>
+    <thingCategories>
+      <li>Items</li> <!-- Maybe add some new ones-->
+    </thingCategories>
+  </ThingDef>
+	
+<!-- Adamant Ingot -->
+<ThingDef ParentName="ResourceBase">
+    <defName>AdamantIngot</defName>
+    <label>adamant ingot</label>
+    <description>An ingot of adamant.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/AdamantIngot</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>50</stackLimit>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <MarketValue>32</MarketValue>
+      <Mass>0.6</Mass>
+      <Flammability>0.6</Flammability>
+			<DeteriorationRate>2.0</DeteriorationRate>
+		</statBases>
+    <intricate>true</intricate>
+    <thingCategories>
+      <li>Items</li> <!-- Maybe add some new ones-->
+    </thingCategories>
+  </ThingDef>
+	
+<!-- Mithril Ingot -->
+<ThingDef ParentName="ResourceBase">
+    <defName>MithrilIngot</defName>
+    <label>mithril ingot</label>
+    <description>An ingot of mithril.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/MithrilIngot</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>50</stackLimit>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <MarketValue>32</MarketValue>
+      <Mass>0.6</Mass>
+      <Flammability>0.6</Flammability>
+			<DeteriorationRate>2.0</DeteriorationRate>
+		</statBases>
+    <intricate>true</intricate>
+    <thingCategories>
+      <li>Items</li> <!-- Maybe add some new ones-->
+    </thingCategories>
+  </ThingDef>
+</Defs>
