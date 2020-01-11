@@ -89,13 +89,11 @@
   - revisit "abandoned bases"/ remove abandonded base, allow visiting tiles without settling- see mod 
   
   - mechanics
-    - ingots
     - smelting + furnace
     - forge/anvil
   
   - ores/materials
     - non crucial ores are biome specific? elemental crystals?
-    - bronze
     - rune
     - dragon
     - clay
@@ -112,7 +110,6 @@
     
   - woods
     - wood
-    - oak
     - willow
     - teak
     - maple
