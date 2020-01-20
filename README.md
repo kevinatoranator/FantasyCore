@@ -5,23 +5,7 @@
 ### TODO ###
 
   ## Level 1 ##
-  - new races (expacs)
-    - elves
-    - dwarves
-    - goblins
-    - norn
-    - night elf
-    - orc
-    - gnome/lalafell
-    - undead
-    - charr
-    - troll
-    - asura
-    - sylvari
-    - Au Ra
-    - Viera
-    
-  
+     
   - new animals/creatures
     - dragons
     - kobolds
@@ -81,20 +65,9 @@
     
   
   ## Level 2 ##
-  - new traits
-  
-  - limit to medieval age
-  
-  - new items in caravans/ specialized caravans
-  - revisit "abandoned bases"/ remove abandonded base, allow visiting tiles without settling- see mod 
-  
-  - mechanics
-    - smelting + furnace
-    - forge/anvil
   
   - ores/materials
     - non crucial ores are biome specific? elemental crystals?
-    - rune
     - dragon
     - clay
     - cobalt
@@ -108,21 +81,6 @@
     - throwing axe
     - warhammer
     
-  - woods
-    - wood
-    - willow
-    - teak
-    - maple
-    - acadia
-    - mahogany
-    - artic pine
-    - eucalyptus
-    - yew
-    - magic
-    - elder
-      
-    - bamboo
-      
   - plants
     - banana trees
     - barley
@@ -144,22 +102,5 @@
     - nails?
     - lanturns
   
-  - ring buffs
-  
   - fishing?
   
-  - shock damage
-  
-  - mini bosses
-  
-  
-  ## Level 3 ##
-  - new skills
-  - runes
-  - potions
-    - buffs
-    - antipoison
-  - poison
-  - accessories
-  - totems
-  - socket gems
